@@ -1,3 +1,11 @@
 return {
-  { "martinsione/darkplus.nvim" },
+  {
+    "martinsione/darkplus.nvim"
+  },
+  {
+    "LazyVIM/LazyVim",
+    opts = {
+      colorscheme = "darkplus",
+    },
+  }
 }
